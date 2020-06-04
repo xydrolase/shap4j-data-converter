@@ -7,7 +7,7 @@ def main():
         version="0.0.1",
         description="Data converter for shap4j",
         install_requires=['shap', 'numpy'],
-        scripts=['bin/shapjsconv'],
+        scripts=['bin/shap4jconv'],
 
         author="Xin Yin",
         author_email="xydrolase@gmail.com"
