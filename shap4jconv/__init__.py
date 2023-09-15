@@ -5,7 +5,7 @@ import ctypes
 import os.path
 
 import numpy as np
-from shap.explainers.tree import TreeEnsemble
+from shap.explainers._tree import TreeEnsemble
 
 
 INT_ARRAYS = ('children_left', 'children_right', 'children_default', 'features')
