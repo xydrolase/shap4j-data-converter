@@ -8,7 +8,7 @@ def main():
         name="shap4j-data-converter",
         version="0.0.2",
         description="Data converter for shap4j",
-        install_requires=['shap', 'numpy'],
+        install_requires=['shap', 'numpy==1.25'],
         packages=find_packages(),
         scripts=['bin/shap4jconv'],
 
